@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  letter-spacing: 0.05cm;
+  color: white;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0e1420;
+  padding: 20px;
+  overflow-x: hidden;
+}
+
+input:focus {
+  outline: none;
+}
